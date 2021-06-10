@@ -7,7 +7,8 @@ import HideShow from './HideShow';
 import Form from './Form';
 import Profile from './Profile';
 import User from './Component/User';
-import LifeCycle from './LifeCycleMethods';
+import Parent from './LifeCycleClassMethods';
+import Parents from './LifeCycleFuncationMethod';
 
 
 function App() {
@@ -28,8 +29,11 @@ function App() {
      <hr />
      <User />
      <hr />
-     <LifeCycle />
+     <Parent />
+     <hr /> 
+     <Parents />
     </div>
+
   );
 }
 
