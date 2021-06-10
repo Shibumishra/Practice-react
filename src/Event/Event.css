@@ -1,0 +1,15 @@
+button{
+    border-radius: 8px;
+    border: none;
+    color: rgb(16, 17, 17);
+    background-color: rgb(23, 109, 207);
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+}
+.count{
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: 600;
+}

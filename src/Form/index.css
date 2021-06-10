@@ -1,0 +1,8 @@
+.form-control{
+    margin: auto;
+    width: 30%;
+}
+.form-check .form-check-input{
+    float: none;
+    margin: 5px;
+}

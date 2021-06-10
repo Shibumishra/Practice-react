@@ -1,23 +1,34 @@
 import logo from './logo.svg';
 import './App.css';
+import Event from './Event';
+import Apple from './Event/Event_class';
+import Input from './Input';
+import HideShow from './HideShow';
+import Form from './Form';
+import Profile from './Profile';
+import User from './Component/User';
+import LifeCycle from './LifeCycleMethods';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+     <Event />
+     <hr />
+     <Apple />
+     <hr />
+     <Input />
+     <hr />
+     <HideShow />
+     <hr />
+     <Form />
+     <hr />
+     <Profile />
+     <hr />
+     <User />
+     <hr />
+     <LifeCycle />
     </div>
   );
 }

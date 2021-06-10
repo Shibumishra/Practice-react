@@ -1,0 +1,30 @@
+img{
+    width: 100%;
+}
+.products{
+    width: 100%;
+    max-width: 20%;
+    margin: auto;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 5px;
+
+}
+.product-title {
+    font-weight: 600;
+    margin: 0 ;
+    font-size: 16px;
+  }
+  .product-brand {
+    font-weight: 600;
+    opacity: 0.8;
+    margin: 0 ;
+    margin-top: 12px;
+    font-size: 15px;
+  }
+  .product-price {
+    margin-top: 12px;
+    font-weight: 600;
+    color: #009688;
+    margin: 10px;
+  }
